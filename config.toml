@@ -54,7 +54,7 @@ theme = "minimal"
     name = "twitter"
     weight = 3
 
-[[menu.icon]]
-    url = "https://projects.iq.harvard.edu/provenance-at-harvard"
-    name = "link"
-    weight = 4
+# [[menu.icon]]
+#     url = "https://projects.iq.harvard.edu/provenance-at-harvard"
+#     name = "link"
+#     weight = 4
