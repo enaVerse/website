@@ -5,7 +5,7 @@ theme = "minimal"
 
 [params]
     author = "Matthew Lau"
-    description = "Provenance-based tools for reproducible research.</br>Test"
+    description = "Provenance-based tools for reproducible research</br>Automate the capture of infomation about compuational processes for more transparent data science"
     githubUsername = "#"
     accent = "red"
     showBorder = true
@@ -54,7 +54,3 @@ theme = "minimal"
     name = "twitter"
     weight = 3
 
-# [[menu.icon]]
-#     url = "https://projects.iq.harvard.edu/provenance-at-harvard"
-#     name = "link"
-#     weight = 4
