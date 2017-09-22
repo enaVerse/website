@@ -1,8 +1,7 @@
 ---
 title: "CleanR"
-description: "Lorem ipsum dolor sit amet"
-repo: "#" # delete this line if you want blog-like posts for projects
-tags: ["go", "golang", "hugo"]
+description: "Isolate code for specific results"
+repo: "cleanR" # delete this line if you want blog-like posts for projects
 weight: 1
 draft: false
 ---

@@ -1,8 +1,7 @@
 ---
 title: "provViz"
-description: "Cras felis sapien"
+description: "Visualizing provenance: currently under construction"
 repo: "#" # delete this line if you want blog-like posts for projects
-tags: ["bootstrap", "responsive"]
-weight: 3
+weight: 4
 draft: false
 ---

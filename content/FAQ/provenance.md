@@ -1,8 +1,9 @@
-+++
+---
 title = "Provenance: what and why?"
-date = ""
+description = ""
+repo: "#" # delete this line if you want blog-like posts for projects
 
-+++
+---
 
 # What is provenance?
 
