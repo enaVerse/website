@@ -1,5 +1,7 @@
 install:
-- rm -rf public || exit 0
+  - rm -rf public || exit 0
+before_script:
+  - git submodule update --remote themes/minimal
 script:
   - binaries/hugo
 deploy:
