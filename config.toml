@@ -5,7 +5,8 @@ theme = "minimal"
 
 [params]
     author = "Matthew Lau"
-    description = "Test"
+    description = "Open data science via capture, storage and analysis
+    of dynamic computation"
     githubUsername = "#"
     accent = "red"
     showBorder = true

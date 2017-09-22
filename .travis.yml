@@ -4,6 +4,7 @@ before_install:
   - git submodule update --remote themes/minimal
 script:
   - binaries/hugo --theme=minimal --buildDrafts
+  - cp README.md public/
 deploy:
   provider: pages
   repo: ProvTools/provtools.github.io
