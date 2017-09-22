@@ -1,9 +1,11 @@
 install:
   - rm -rf public || exit 0
-before_script:
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get -y install hugo
   - git submodule update --remote themes/minimal
 script:
-  - binaries/hugo
+  - hugo --theme=minimal --buildDrafts
 deploy:
   provider: pages
   repo: ProvTools/provtools.github.io
