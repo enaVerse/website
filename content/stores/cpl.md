@@ -1,8 +1,8 @@
 ---
 title: "CPL"
-description: "Lorem ipsum dolor sit amet"
-repo: "#" # delete this line if you want blog-like posts for projects
-tags: ["go", "golang", "hugo"]
+description: "Core Provenance Library: general bindings for storing
+provenance in a database"
+repo: "prov-cpl" # delete this line if you want blog-like posts for projects
 weight: 1
 draft: false
 ---
