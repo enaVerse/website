@@ -9,5 +9,7 @@ deploy:
   local_dir: public
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  fqdn: camflow.org
+  name: Travis
 notifications:
   slack: endtoendprovenance:qqw61OZw9wGxFCX9mtotxJjH
