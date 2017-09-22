@@ -21,8 +21,8 @@ theme = "minimal"
     weight = 1
 
 [[menu.main]]
-    url = "/provenance/"
-    name = "Provenance?"
+    url = "/FAQ/"
+    name = "FAQs"
     weight = 2
 
 
@@ -32,8 +32,8 @@ theme = "minimal"
     weight = 3
 
 [[menu.main]]
-    url = "/storage/"
-    name = "Storage"
+    url = "/store/"
+    name = "Store"
     weight = 4
 
 [[menu.main]]
