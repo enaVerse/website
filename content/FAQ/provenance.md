@@ -1,8 +1,10 @@
-+++
-title = "Provenance: what and why?"
-date = ""
+---
+title: "Provenance"
+description: "What is it and why use it?"
+weight: 1
+draft: false
+---
 
-+++
 
 # What is provenance?
 
