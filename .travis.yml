@@ -4,12 +4,10 @@ script:
   - binaries/hugo --theme=minimal
 deploy:
   provider: pages
-  repo: ProvTools/provtools.org
+  repo: ProvTools/provtools.github.io
   target_branch: master
   local_dir: public
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-  on:
-    branch: master
 notifications:
-  email: false
+  slack: endtoendprovenance:qqw61OZw9wGxFCX9mtotxJjH
