@@ -27,18 +27,18 @@ theme = "minimal"
 
 
 [[menu.main]]
-    url = "/capture/"
-    name = "Capture"
+    url = "/captures/"
+    name = "Captures"
     weight = 3
 
 [[menu.main]]
-    url = "/store/"
-    name = "Store"
+    url = "/stores/"
+    name = "Stores"
     weight = 4
 
 [[menu.main]]
-    url = "/analysis/"
-    name = "Analysis"
+    url = "/analyses/"
+    name = "Analyses"
     weight = 5
 
 # Social icons to be shown on the right-hand side of the navigation bar
