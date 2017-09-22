@@ -1,15 +1,21 @@
 +++
-date = "2017-01-01T14:15:40+11:00"
-title = "About"
+title = "Provenance: what and why?"
 
 +++
 
-# Edward Kim
+# What is provenance?
 
-I'm an open web developer and am eating my code everyday.
+Provenance is information about the processes that used and produced
+data. 
 
-## Get in touch
+## Why use it?
 
-You can find me here [twitter/haruair](https://twitter.com/haruair), and also 
-[haruair.com](http://haruair.com).
+Knowing the relationships among computational processes and data
+allows us to conduct formal analyses about entire computer pipelines
+without having to re-run it. In other words, although having code and
+input data permits reproduction, there's is no way of positively
+knowing what the software will do without running.
 
+## More info on provenance
+
+[provenance@harvard](https://projects.iq.harvard.edu/provenance-at-harvard/home)
