@@ -1,8 +1,7 @@
 ---
 title: "provR"
-description: "Lorem ipsum dolor sit amet"
-repo: "#" # delete this line if you want blog-like posts for projects
-tags: ["go", "golang", "hugo"]
+description: "Capture dynamic processes (i.e. data provenance) in a R scripts"
+repo: "provR" # delete this line if you want blog-like posts for projects
 weight: 1
 draft: false
 ---
