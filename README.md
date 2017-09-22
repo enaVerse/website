@@ -1,5 +1,7 @@
 # ProvTools: reproducible research using provenance
 
+[![Build Status](https://travis-ci.org/ProvTools/provtools.github.io.svg?branch=code)](https://travis-ci.org/ProvTools/provtools.github.io)
+
 **Package Ecosystem**
 
 |Capture| Store    |   Analyze  |
