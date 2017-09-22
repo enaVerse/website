@@ -5,7 +5,7 @@ theme = "minimal"
 
 [params]
     author = "Matthew Lau"
-    description = ""
+    description = "Tools to capture dynamic computer processes to improve data science"
     githubUsername = "#"
     accent = "red"
     showBorder = true
