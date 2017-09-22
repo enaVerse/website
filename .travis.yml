@@ -1,10 +1,8 @@
-install:
-  - rm -rf public || exit 0
 before_install:
-  - git submodule update --remote themes/minimal
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.27.1/hugo_0.27.1_Linux-64bit.deb
+  - sudo apt -y install ./hugo_0.27.1_Linux-64bit.deb
 script:
-  - binaries/hugo --theme=minimal --buildDrafts
-  - cp README.md public/
+  - hugo --theme=minimal --buildDrafts
 deploy:
   provider: pages
   repo: ProvTools/provtools.github.io
