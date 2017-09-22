@@ -4,7 +4,7 @@ script:
   - binaries/hugo --theme=minimal
 deploy:
   provider: pages
-  repo: provtools.github.io
+  repo: ProvTools/provtools.github.io
   target_branch: master
   local_dir: public
   skip_cleanup: true
