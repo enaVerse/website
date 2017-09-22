@@ -1,7 +1,7 @@
 install:
 - rm -rf public || exit 0
 script:
-  - binaries/hugo --theme=minimal
+  - binaries/hugo
 deploy:
   provider: pages
   repo: ProvTools/provtools.github.io
