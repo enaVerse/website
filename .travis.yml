@@ -4,7 +4,6 @@ before_install:
 script:
   - hugo version
   - hugo --ignoreCache=true
-  - cd public && ls
 deploy:
   provider: pages
   repo: ProvTools/provtools.github.io
