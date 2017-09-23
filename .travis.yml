@@ -2,7 +2,7 @@ before_install:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.27.1/hugo_0.27.1_Linux-64bit.deb
   - sudo apt -y install ./hugo_0.27.1_Linux-64bit.deb
 script:
-  - hugo
+  - hugo --ignoreCache=true 
   - cd public && ls
 deploy:
   provider: pages
