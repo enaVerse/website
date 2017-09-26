@@ -6,12 +6,12 @@ script:
   - hugo --ignoreCache=true
 deploy:
   provider: pages
-  repo: ProvTools/provtools.github.io
+  repo: enaVerse/enaVerse.github.io
   target_branch: master
   local_dir: public
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-  fqdn: provtools.org
+  fqdn: github.enaVerse.io
   name: Travis
 notifications:
-  slack: endtoendprovenance:qqw61OZw9wGxFCX9mtotxJjH
+  slack: https://join.slack.com/t/enaverse/shared_invite/enQtMjQ2OTA4NTM2NTk0LWRkOTJkNzYzYmVmZWYwOGFhOTg4OGVmZmJmNTVkOTA2ZTZiYmJlOTU4OTgwOTg4NGJkMjcwMDFjMjc3NjdkZGY
