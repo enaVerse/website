@@ -1,12 +1,12 @@
-baseURL = "http://provtools.org/"
+baseURL = "http://enaverse.org/"
 languageCode = "en-us"
-title = "ProvTools"
+title = "Enaverse"
 theme = "minimal"
 
 [params]
     author = "Matthew Lau"
     description = "Capture and analyze provenance to improve data science"
-    githubUsername = "ProvTools"
+    githubUsername = "Enaverse"
     accent = "red"
     showBorder = true
     backgroundColor = "white"
@@ -17,29 +17,41 @@ theme = "minimal"
 
 [[menu.main]]
     url = "/"
-    name = "ProvTools"
+    name = "Enaverse"
     weight = 1
 
 [[menu.main]]
     url = "/FAQ/"
     name = "FAQs"
-    weight = 5
+    weight = 7
 
 
 [[menu.main]]
-    url = "/captures/"
-    name = "Captures"
+    url = "/communities/"
+    name = "Communities"
     weight = 2
 
 [[menu.main]]
-    url = "/stores/"
-    name = "Stores"
+    url = "/databases/"
+    name = "Databases"
     weight = 3
+
+[[menu.main]]
+    url = "/models/"
+    name = "Models"
+    weight = 4
+
 
 [[menu.main]]
     url = "/analyses/"
     name = "Analyses"
-    weight = 4
+    weight = 5
+
+[[menu.main]]
+    url = "/goals/"
+    name = "Goals"
+    weight = 6
+
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
@@ -51,11 +63,11 @@ theme = "minimal"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/ProvTools/"
+    url = "https://github.com/enaverse/"
     name = "github"
     weight = 2
 
 [[menu.icon]]
-    url = "https://twitter.com/DataProv/"
+    url = "https://twitter.com/enaVerse/"
     name = "twitter"
     weight = 3
