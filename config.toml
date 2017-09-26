@@ -5,7 +5,7 @@ theme = "minimal"
 
 [params]
     author = "Matthew Lau"
-    description = "Capture and analyze provenance to improve data science"
+    description = "Community built tools for applying ENA"
     githubUsername = "Enaverse"
     accent = "red"
     showBorder = true
