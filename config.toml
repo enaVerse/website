@@ -67,7 +67,4 @@ theme = "minimal"
     name = "github"
     weight = 2
 
-[[menu.icon]]
-    url = "https://twitter.com/enaVerse/"
-    name = "twitter"
-    weight = 3
+
