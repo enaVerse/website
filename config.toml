@@ -6,7 +6,7 @@ theme = "minimal"
 [params]
     author = "Matthew Lau"
     description = "Community built tools for applying ENA"
-    githubUsername = "Enaverse"
+    githubUsername = "enaverse"
     accent = "red"
     showBorder = true
     backgroundColor = "white"
@@ -17,7 +17,7 @@ theme = "minimal"
 
 [[menu.main]]
     url = "/"
-    name = "Enaverse"
+    name = "enaverse"
     weight = 1
 
 [[menu.main]]
