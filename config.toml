@@ -1,4 +1,4 @@
-baseURL = "http://github.enaverse.io"
+baseURL = "https://enaverse.github.io"
 languageCode = "en-us"
 title = "Enaverse"
 theme = "minimal"
