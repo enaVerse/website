@@ -10,4 +10,6 @@ The website is pretty easy to edit:
 
 Travis-CI (configured via .travis.yml) will build and deploy the site to the enverse.github.io repository, which will then be automatically hosted via github’s servers.
 
+New themes can be found at http://gohugo.io/. 
+
 Any questions, contact MKLau.
